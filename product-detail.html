@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Inter:wght@400;500;600;700&family=Manrope:wght@600&family=Outfit:wght@600&family=Poppins:wght@400;500;600&family=Public+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root">
+      <header>
+        <div class="pages">
+          <a href="index.html">
+            <img src="./assets/icons/logo.png" alt="logo" />
+          </a>
+          <a class="active" href="discover.html">discover</a>
+          <a href="">creators</a>
+          <a href="">Sell</a>
+          <a href="">stats</a>
+        </div>
+
+        <div class="search-and-connection">
+          <div class="search-block">
+            <input
+              placeholder="Search Art Work / Creator"
+              class="search"
+              type="text"
+            />
+            <div class="search-pic">
+              <img
+                src="./assets/icons/search.png"
+                style="width: 20px; height: 20px"
+              />
+            </div>
+          </div>
+          <div class="connection-button">
+            <button>Connect Wallet</button>
+          </div>
+        </div>
+      </header>
+
+      <main class="product-detail-main">
+        <div class="pop-up show">
+          <div class="pop-up-content">
+
+            <div class="pop-up-header">
+              <h2>History of Bid</h2>
+              <p>Oct 14, 2022</p>
+            </div>
+
+            <div class="bid">
+              <div class="bid-user">
+                <div class="verified">
+                  <img src="./assets/user-pics/user-pic-4.png" alt="ava">
+                </div>
+                <div class="bid-user-name">
+                  <h3>Repo</h3>
+                  <p>May 17, 2022 at 12:08</p>
+                </div>
+              </div>
+              <div class="cost">
+                <img src="./assets/icons/ethereum.png" alt="ethereum">
+                <p>1.75</p>
+              </div>
+            </div>
+
+            <div class="bid">
+              <div class="bid-user">
+                <div class="verified">
+                  <img src="./assets/user-pics/user-pic-3.png" alt="ava">
+                </div>
+                <div class="bid-user-name">
+                  <h3>Travo</h3>
+                  <p>May 16, 2022 at 12:08</p>
+                </div>
+              </div>
+              <div class="cost">
+                <img src="./assets/icons/ethereum.png" alt="ethereum">
+                <p>1.57</p>
+              </div>
+            </div>
+
+            <div class="bid">
+              <div class="bid-user">
+                <div class="verified">
+                  <img src="./assets/user-pics/user-pic-2.png" alt="ava">
+                </div>
+                <div class="bid-user-name">
+                  <h3>Jennifer</h3>
+                  <p>May 16, 2022 at 6:08</p>
+                </div>
+              </div>
+              <div class="cost">
+                <img src="./assets/icons/ethereum.png" alt="ethereum">
+                <p>1.44</p>
+              </div>
+            </div>
+          </div>
+          <div class="your-bid">
+            <h2>Your Bid</h2>
+            <div class="bid-input">
+              <div class="bid-input-eth">
+                ETH 
+                <img src="./assets/icons/arrow-bot.png" alt="arrow-bot">
+              </div>
+              <div class="bid-input-field"></div>
+            </div>
+            <button>
+              <img src="./assets/icons/wallet.png" alt="wallet">
+              Submit
+            </button>
+          </div>
+        </div>
+
+        <div class="content blur">
+          <div class="back">
+            <img src="./assets/icons/arrow-left.png" alt="back" />
+            <h2>Product Detail</h2>
+          </div>
+
+          <div class="product-card">
+            <img src="./assets/pics/product-details-ava.png" alt="product-ava" />
+            <div class="product-info">
+              <h1>Project Sun-Glass</h1>
+              <p>A collection of 10,000 utility-enabled PFPs that feature a richly diverse and unique pool of rarity-powered traits. </p>
+
+              <div class="people">
+                <div class="people-acc">
+                  <img src="./assets/user-pics/product-ava-1.png" alt="ava" />
+                  <div class="people-text">
+                    <p>Created by</p>
+                    <h2>Perperzon</h2>
+                  </div>
+                </div>
+                <div class="people-acc">
+                  <img src="./assets/user-pics/product-ava-2.png" alt="ava" />
+                  <div class="people-text">
+                    <p>Owned by</p>
+                    <h2>Videz</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-other-info">
+                <div class="product-current-bid">
+                  <p>Current Bid</p>
+                  <div>
+                    <img src="./assets/icons/ethereum.png" alt="ethereum" />
+                    <h3>1.75</h3>
+                  </div>
+                </div>
+                <div class="product-current-bid">
+                  <p>End in</p>
+                  <h4>Jun 17, 2023 at 05:08</h4>
+                </div>
+              </div>
+
+              <button class="product-button">
+                <img src="./assets/icons/wallet.png" alt="wallet" />
+                Place Bid
+              </button>
+            </div>
+          </div>
+
+          <div class="from-creator-wrapper">
+            <h4>From Creator</h4>
+            <div class="from-creator-card-wrapper">
+
+              <div class="from-creator-card">
+                <img src="./assets/pics/from-creator-1.png" alt="card-ava">
+
+                <p class="creator-name">Perperzon</p>
+                <p>Sun-Glass</p>
+                <div class="cost-and-likes">
+                  <div>
+                    <img src="./assets/icons/ethereum.png" alt="ethereum">
+                    <p>16,4</p>
+                  </div>
+                  <div>
+                    <img src="./assets/icons/like.png" alt="like">
+                    <p>200</p>
+                  </div>
+                </div>              
+              </div>
+
+              <div class="from-creator-card">
+                <img src="./assets/pics/from-creator-2.png" alt="card-ava">
+
+                <p class="creator-name">Perperzon</p>
+                <p>Sun-Glass</p>
+                <div class="cost-and-likes">
+                  <div>
+                    <img src="./assets/icons/ethereum.png" alt="ethereum">
+                    <p>16,4</p>
+                  </div>
+                  <div>
+                    <img src="./assets/icons/like.png" alt="like">
+                    <p>200</p>
+                  </div>
+                </div>              
+              </div>
+
+              <div class="from-creator-card">
+                <img src="./assets/pics/from-creator-3.png" alt="card-ava">
+
+                <p class="creator-name">Perperzon</p>
+                <p>Sun-Glass</p>
+                <div class="cost-and-likes">
+                  <div>
+                    <img src="./assets/icons/ethereum.png" alt="ethereum">
+                    <p>16,4</p>
+                  </div>
+                  <div>
+                    <img src="./assets/icons/like.png" alt="like">
+                    <p>200</p>
+                  </div>
+                </div>              
+              </div>
+
+              <div class="from-creator-card">
+                <img src="./assets/pics/from-creator-4.png" alt="card-ava">
+
+                <p class="creator-name">Perperzon</p>
+                <p>Sun-Glass</p>
+                <div class="cost-and-likes">
+                  <div>
+                    <img src="./assets/icons/ethereum.png" alt="ethereum">
+                    <p>16,4</p>
+                  </div>
+                  <div>
+                    <img src="./assets/icons/like.png" alt="like">
+                    <p>200</p>
+                  </div>
+                </div>              
+              </div>
+
+              <div class="from-creator-card">
+                <img src="./assets/pics/from-creator-5.png" alt="card-ava">
+
+                <p class="creator-name">Perperzon</p>
+                <p>Sun-Glass</p>
+                <div class="cost-and-likes">
+                  <div>
+                    <img src="./assets/icons/ethereum.png" alt="ethereum">
+                    <p>16,4</p>
+                  </div>
+                  <div>
+                    <img src="./assets/icons/like.png" alt="like">
+                    <p>200</p>
+                  </div>
+                </div>              
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </main>
+
+      <footer>
+        <div class="upper">
+          <div class="footer-logo">
+            <img src="./assets/icons/logo-white.png" alt="logo" />
+            <h2>DiveSea</h2>
+          </div>
+          <div class="footer-menu">
+            <a href="">Privacy Policy</a>
+            <a href="">Term & Conditions</a>
+            <a href="">About Us</a>
+            <a href="">Contact</a>
+          </div>
+        </div>
+
+        <span
+          class="unleash-line"
+          style="opacity: 0.25; background: #818181"
+        ></span>
+
+        <div class="lower">
+          <p>© 2023 EATLY All Rights Reserved.</p>
+          <div class="socials">
+            <img src="./assets/socials/instagram.png" alt="instagram" />
+            <img src="./assets/socials/linked-in.png" alt="linked in" />
+            <img src="./assets/socials/facebook.png" alt="facebook" />
+            <img src="./assets/socials/tweeter.png" alt="tweeter" />
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
