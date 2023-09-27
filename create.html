@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Inter:wght@400;500;600;700&family=Manrope:wght@600&family=Outfit:wght@400;600&family=Poppins:wght@400;500;600&family=Public+Sans:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root">
+      <header>
+        <div class="pages">
+          <a href="index.html">
+            <img src="./assets/icons/logo.png" alt="logo" />
+          </a>
+          <a href="./discover.html">discover</a>
+          <a href="./creators.html">creators</a>
+          <a href="./create.html" class="active">Sell</a>
+          <a href="./stats.html">stats</a>
+        </div>
+
+        <div class="search-and-connection">
+          <div class="search-block">
+            <input
+              placeholder="Search Art Work / Creator"
+              class="search"
+              type="text"
+            />
+            <div class="search-pic">
+              <img
+                src="./assets/icons/search.png"
+              />
+            </div>
+          </div>
+          <div class="connection-button">
+            <a href="wallet.html">
+              <button>Connect Wallet</button>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="create-your-nft-wrapper">
+          <h1>Create Your NFT</h1>
+
+          <div class="create-form">
+            <form action="">
+              <div class="create-form-left-side">
+                <div class="create-form-big-input">
+                  <label for="input-name">Name</label>
+                  <input
+                    class="input-text"
+                    placeholder="ArtWork Name"
+                    type="text"
+                    name="input-name"
+                  />
+                </div>
+
+                <div class="create-form-big-input">
+                  <label for="description">Description</label>
+                  <textarea
+                    class="input-text"
+                    placeholder="Enter Your Description"
+                    name="description"
+                  ></textarea>
+                </div>
+
+                <div class="row">
+                  <div class="create-form-mini-input bottom-arrow">
+                    <label for="description">Royalty</label>
+                    <input
+                      class="input-text"
+                      placeholder="Royalty"
+                      type="text"
+                      name="input-name"
+                    />
+                  </div>
+
+                  <div class="create-form-mini-input">
+                    <label for="description">Size</label>
+                    <input
+                      class="input-text"
+                      placeholder="Ex - 100 x 100"
+                      type="text"
+                      name="input-name"
+                    />
+                  </div>
+                </div>
+
+                <div class="create-form-big-input">
+                  <label for="input-name">Tags</label>
+                  <input
+                    class="input-text"
+                    placeholder="Beautiful Castle, Monkeys ETC"
+                    type="text"
+                    name="input-name"
+                  />
+                </div>
+
+                <div class="row">
+                  <div class="united-input">
+                    <div class="create-form-mini-input bottom-arrow">
+                      <label for="description">Price</label>
+                      <input
+                        class="input-text"
+                        placeholder="ETH"
+                        type="text"
+                        name="input-name"
+                      />
+                    </div>
+
+                    <div class="create-form-mini-input before-line">
+                      <input
+                        class="input-text"
+                        placeholder="0.00007 ETC"
+                        type="text"
+                        name="input-name"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="create-form-mini-input">
+                    <label for="description">Size</label>
+                    <input
+                      class="input-text"
+                      placeholder="Ex - 100 x 100"
+                      width="171px"
+                      type="text"
+                      name="input-name"
+                    />
+                  </div>
+                </div>
+
+                <div class="toggles">
+                  <div>
+                    <div class="toggles-text">
+                      <h3>Put On Sale</h3>
+                      <p>People Will Bids On Your NFT Project</p>
+                    </div>
+
+                    <label class="switch">
+                      <input type="checkbox">
+                      <span class="slider round"></span>
+                    </label>
+
+                  </div>
+                  <div>
+                    <div class="toggles-text">
+                      <h3>Direct Sale</h3>
+                      <p>No Bids - Only Direct Salling</p>
+                    </div>
+                    <label class="switch">
+                      <input type="checkbox">
+                      <span class="slider round"></span>
+                    </label>
+                  </div>
+                </div>
+
+                <button>Create</button>
+              </div>
+
+              <div class="create-form-right-side">
+                <div class="upload">
+                  <img src="./assets/icons/file.png" alt="upload">
+                  <p>PNG, GIF, WEBP, MP4 or MP3. Max 1Gb.</p>
+                </div>
+                <button>Upload</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <div class="upper">
+          <div class="footer-logo">
+            <img src="./assets/icons/logo-white.png" alt="logo" />
+            <h2>DiveSea</h2>
+          </div>
+          <div class="footer-menu">
+            <a href="">Privacy Policy</a>
+            <a href="">Term & Conditions</a>
+            <a href="">About Us</a>
+            <a href="">Contact</a>
+          </div>
+        </div>
+
+        <span
+          class="unleash-line"
+          style="opacity: 0.25; background: #818181"
+        ></span>
+
+        <div class="lower">
+          <p>© 2023 EATLY All Rights Reserved.</p>
+          <div class="socials">
+            <img src="./assets/socials/instagram.png" alt="instagram" />
+            <img src="./assets/socials/linked-in.png" alt="linked in" />
+            <img src="./assets/socials/facebook.png" alt="facebook" />
+            <img src="./assets/socials/tweeter.png" alt="tweeter" />
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

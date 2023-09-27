@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Inter:wght@400;500;600;700&family=Manrope:wght@600&family=Outfit:wght@400;600&family=Poppins:wght@400;500;600&family=Public+Sans:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root">
+      <header>
+        <div class="pages">
+          <a href="index.html">
+            <img src="./assets/icons/logo.png" alt="logo" />
+          </a>
+          <a href="./discover.html">discover</a>
+          <a href="./creators.html">creators</a>
+          <a href="./create.html">Sell</a>
+          <a href="./stats.html">stats</a>
+        </div>
+
+        <div class="search-and-connection">
+          <div class="search-block">
+            <input
+              placeholder="Search Art Work / Creator"
+              class="search"
+              type="text"
+            />
+            <div class="search-pic">
+              <img
+                src="./assets/icons/search.png"
+              />
+            </div>
+          </div>
+          <div class="connection-button">
+            <a href="wallet.html">
+              <button>Connect Wallet</button>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="profile-wrapper">
+          <div class="profile-info-wrapper">
+            <div class="profile-ava">
+              <img src="./assets/user-pics/profile-pic.png" alt="ava" />
+            </div>
+
+            <div class="profile-name">
+              <div>
+                <h1>Harry K.</h1>
+                <p>@Harryknft</p>
+              </div>
+
+              <button>Follow +</button>
+            </div>
+
+            <span class="profile-line"></span>
+
+            <div class="profile-info">
+              <div>
+                <h2 style="width: 114px">86 ETH</h2>
+                <p>Total Sales</p>
+              </div>
+              <div>
+                <h2>12K</h2>
+                <p>Followers</p>
+              </div>
+              <div>
+                <h2>587</h2>
+                <p>Followings</p>
+              </div>
+            </div>
+
+            <div class="bio">
+              <h2>Bio</h2>
+              <p>
+                the artist who transforms the intangible into priceless assets
+                with their incredible NFT creations. From stunning visuals to
+                mind-bending concepts,
+              </p>
+            </div>
+
+            <span class="profile-line"></span>
+
+            <div class="socials">
+              <img src="./assets/socials/instagram-black.png" alt="instagram" />
+              <img src="./assets/socials/linked-in-black.png" alt="linked in" />
+              <img src="./assets/socials/facebook-black.png" alt="facebook" />
+              <img src="./assets/socials/tweeter-black.png" alt="tweeter" />
+            </div>
+          </div>
+
+          <div class="profile-tabs-wrapper">
+            <div class="tab">
+              <button
+                class="tab-links active"
+                onclick="openTab(event, 'profile-card-wrapper')"
+              >
+                <img
+                  src="./assets/icons/profile-collection.png"
+                  alt="collection"
+                />
+                Collection
+              </button>
+              <button class="tab-links" onclick="openTab(event, 'profile-activity-wrapper')">
+                <img src="./assets/icons/activity.png" alt="activity" />
+                Activity
+              </button>
+            </div>
+            <div class="profile-card-wrapper tabcontent show">
+              <div class="weekly-card changed-card">
+                <div class="card-pic">
+                  <div class="card-time">
+                    <p>07h 09m 12s</p>
+                  </div>
+                </div>
+
+                <div class="card-bottom-block">
+                  <div class="card-name-desc-cost">
+                    <div class="card-name">
+                      <h3>Sun-Glass</h3>
+                    </div>
+                    <div class="card-description">
+                      <p>Current bid</p>
+                    </div>
+                    <div class="card-cost">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>1.75</p>
+                    </div>
+                  </div>
+
+                  <div class="card-button">
+                    <button>PLACE BID</button>
+                  </div>
+                </div>
+              </div>
+              <div class="weekly-card changed-card">
+                <div class="card-pic">
+                  <div class="card-time">
+                    <p>07h 09m 12s</p>
+                  </div>
+                </div>
+
+                <div class="card-bottom-block">
+                  <div class="card-name-desc-cost">
+                    <div class="card-name">
+                      <h3>Sun-Glass</h3>
+                    </div>
+                    <div class="card-description">
+                      <p>Current bid</p>
+                    </div>
+                    <div class="card-cost">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>1.75</p>
+                    </div>
+                  </div>
+
+                  <div class="card-button">
+                    <button>PLACE BID</button>
+                  </div>
+                </div>
+              </div>
+              <div class="weekly-card changed-card">
+                <div class="card-pic">
+                  <div class="card-time">
+                    <p>07h 09m 12s</p>
+                  </div>
+                </div>
+
+                <div class="card-bottom-block">
+                  <div class="card-name-desc-cost">
+                    <div class="card-name">
+                      <h3>Sun-Glass</h3>
+                    </div>
+                    <div class="card-description">
+                      <p>Current bid</p>
+                    </div>
+                    <div class="card-cost">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>1.75</p>
+                    </div>
+                  </div>
+
+                  <div class="card-button">
+                    <button>PLACE BID</button>
+                  </div>
+                </div>
+              </div>
+              <div class="weekly-card changed-card">
+                <div class="card-pic">
+                  <div class="card-time">
+                    <p>07h 09m 12s</p>
+                  </div>
+                </div>
+
+                <div class="card-bottom-block">
+                  <div class="card-name-desc-cost">
+                    <div class="card-name">
+                      <h3>Sun-Glass</h3>
+                    </div>
+                    <div class="card-description">
+                      <p>Current bid</p>
+                    </div>
+                    <div class="card-cost">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>1.75</p>
+                    </div>
+                  </div>
+
+                  <div class="card-button">
+                    <button>PLACE BID</button>
+                  </div>
+                </div>
+              </div>
+              <div class="weekly-card changed-card">
+                <div class="card-pic">
+                  <div class="card-time">
+                    <p>07h 09m 12s</p>
+                  </div>
+                </div>
+
+                <div class="card-bottom-block">
+                  <div class="card-name-desc-cost">
+                    <div class="card-name">
+                      <h3>Sun-Glass</h3>
+                    </div>
+                    <div class="card-description">
+                      <p>Current bid</p>
+                    </div>
+                    <div class="card-cost">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>1.75</p>
+                    </div>
+                  </div>
+
+                  <div class="card-button">
+                    <button>PLACE BID</button>
+                  </div>
+                </div>
+              </div>
+              <div class="weekly-card changed-card">
+                <div class="card-pic">
+                  <div class="card-time">
+                    <p>07h 09m 12s</p>
+                  </div>
+                </div>
+
+                <div class="card-bottom-block">
+                  <div class="card-name-desc-cost">
+                    <div class="card-name">
+                      <h3>Sun-Glass</h3>
+                    </div>
+                    <div class="card-description">
+                      <p>Current bid</p>
+                    </div>
+                    <div class="card-cost">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>1.75</p>
+                    </div>
+                  </div>
+
+                  <div class="card-button">
+                    <button>PLACE BID</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="profile-activity-wrapper tabcontent">
+              <div class="profile-activity-selectors">
+
+                <div class="selector">
+                  <img src="./assets/icons/cart.png" alt="cart" />
+                  <p>Sales</p>
+                  <img
+                    src="./assets/icons/arrow-bot-black.png"
+                    alt="arrow-down"
+                  />
+                </div>
+
+                <div class="selector">
+                  <img src="./assets/icons/chain.png" alt="chain" />
+                  <p>All Chains</p>
+                  <img
+                    src="./assets/icons/arrow-bot-black.png"
+                    alt="arrow-down"
+                  />
+                </div>
+
+              </div>
+
+              <div class="profile-activity-card">
+                <div class="profile-activity-card-top">
+                  <div class="profile-activity-card-header">
+                    <img src="./assets/pics/profile-activity.png" alt="ava" />
+                    <div>
+                      <h3>NeuVey</h3>
+                      <p class="verified changed-verified">JenifferS</p>
+                    </div>
+                  </div>
+                  <div class="profile-activity-card-header-info">
+                    <div>
+                      <div>
+                        <p class="sale">Sale</p>
+                        <div class="profile-activity-ethereum-block">
+                          <img
+                            src="./assets/icons/ethereum.png"
+                            alt="ethereum"
+                          />
+                          <p>16,4</p>
+                        </div>
+                        <p>6 Minutes ago</p>
+                      </div>
+                      <img
+                        src="./assets/icons/arrow-bot-black.png"
+                        alt="arrow-bottom"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <span class="profile-line changed-profile-line"></span>
+
+                <div class="profile-activity-card-bottom">
+                  <div>
+                    <p>USD Price</p>
+                    <h3>$19K</h3>
+                  </div>
+                  <div>
+                    <p>Quantity</p>
+                    <h3>14.9K</h3>
+                  </div>
+                  <div>
+                    <p>floor price</p>
+                    <div class="bottom-ethereum-block">
+                      <img src="./assets/icons/ethereum.png" alt="ethereum" />
+                      <h3>16,4</h3>
+                    </div>
+                  </div>
+                  <div>
+                    <p>traded</p>
+                    <div class="bottom-ethereum-block">
+                      <img src="./assets/icons/ethereum.png" alt="ethereum" />
+                      <h3>26,4</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="profile-activity-card">
+                <div class="profile-activity-card-top">
+                  <div class="profile-activity-card-header">
+                    <img src="./assets/pics/profile-activity.png" alt="ava" />
+                    <div>
+                      <h3>NeuVey</h3>
+                      <p class="verified changed-verified">JenifferS</p>
+                    </div>
+                  </div>
+                  <div class="profile-activity-card-header-info">
+                    <div>
+                      <div>
+                        <p class="sale">Sale</p>
+                        <div class="profile-activity-ethereum-block">
+                          <img
+                            src="./assets/icons/ethereum.png"
+                            alt="ethereum"
+                          />
+                          <p>16,4</p>
+                        </div>
+                        <p>6 Minutes ago</p>
+                      </div>
+                      <img
+                        src="./assets/icons/arrow-bot-black.png"
+                        alt="arrow-bottom"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <span class="profile-line changed-profile-line"></span>
+
+                <div class="profile-activity-card-bottom">
+                  <div>
+                    <p>USD Price</p>
+                    <h3>$19K</h3>
+                  </div>
+                  <div>
+                    <p>Quantity</p>
+                    <h3>14.9K</h3>
+                  </div>
+                  <div>
+                    <p>floor price</p>
+                    <div class="bottom-ethereum-block">
+                      <img src="./assets/icons/ethereum.png" alt="ethereum" />
+                      <h3>16,4</h3>
+                    </div>
+                  </div>
+                  <div>
+                    <p>traded</p>
+                    <div class="bottom-ethereum-block">
+                      <img src="./assets/icons/ethereum.png" alt="ethereum" />
+                      <h3>26,4</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="loading">
+              <span class="loader"></span>
+            </div>
+          </div>
+
+          
+        </div>
+      </main>
+
+      <footer>
+        <div class="upper">
+          <div class="footer-logo">
+            <img src="./assets/icons/logo-white.png" alt="logo" />
+            <h2>DiveSea</h2>
+          </div>
+          <div class="footer-menu">
+            <a href="">Privacy Policy</a>
+            <a href="">Term & Conditions</a>
+            <a href="">About Us</a>
+            <a href="">Contact</a>
+          </div>
+        </div>
+
+        <span
+          class="unleash-line"
+          style="opacity: 0.25; background: #818181"
+        ></span>
+
+        <div class="lower">
+          <p>© 2023 EATLY All Rights Reserved.</p>
+          <div class="socials">
+            <img src="./assets/socials/instagram.png" alt="instagram" />
+            <img src="./assets/socials/linked-in.png" alt="linked in" />
+            <img src="./assets/socials/facebook.png" alt="facebook" />
+            <img src="./assets/socials/tweeter.png" alt="tweeter" />
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./tabs.js"></script>
+  </body>
+</html>

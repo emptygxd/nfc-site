@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Inter:wght@400;500;600;700&family=Manrope:wght@600;800&family=Outfit:wght@400;600&family=Poppins:wght@400;500;600&family=Public+Sans:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root">
+      <header>
+        <div class="pages">
+          <a href="index.html">
+            <img src="./assets/icons/logo.png" alt="logo" />
+          </a>
+          <a href="./discover.html">discover</a>
+          <a href="./creators.html">creators</a>
+          <a href="./create.html">Sell</a>
+          <a href="./stats.html" class="active">stats</a>
+        </div>
+
+        <div class="search-and-connection">
+          <div class="search-block">
+            <input
+              placeholder="Search Art Work / Creator"
+              class="search"
+              type="text"
+            />
+            <div class="search-pic">
+              <img
+                src="./assets/icons/search.png"
+              />
+            </div>
+          </div>
+          <div class="connection-button">
+            <a href="wallet.html">
+              <button>Connect Wallet</button>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="leaderboard-nfts-wrapper">
+          <div class="explore-marketplace-header">
+            <h2>Explore Marketplace</h2>
+          </div>
+
+          <div class="filters">
+            <div class="filter-block">
+              <img src="./assets/icons/category.png" alt="" />
+              <p>Category</p>
+            </div>
+
+            <div class="filter-block">
+              <img src="./assets/icons/collection.png" alt="" />
+              <p>Collection</p>
+            </div>
+
+            <div class="filter-block">
+              <img src="./assets/icons/price.png" alt="" />
+              <p>Price</p>
+            </div>
+          </div>
+
+          <div class="top-collection-table">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">
+                    <div>
+                      Collection <img src="./assets/icons/sort.png" alt="" />
+                    </div>
+                  </th>
+                  <th scope="col">
+                    <div>
+                      Volume <img src="./assets/icons/sort.png" alt="" />
+                    </div>
+                  </th>
+                  <th scope="col">
+                    <div>
+                      24h % <img src="./assets/icons/sort.png" alt="" />
+                    </div>
+                  </th>
+                  <th scope="col">
+                    <div>
+                      Floor Price <img src="./assets/icons/sort.png" alt="" />
+                    </div>
+                  </th>
+                  <th scope="col">
+                    <div>
+                      Owners <img src="./assets/icons/sort.png" alt="" />
+                    </div>
+                  </th>
+                  <th scope="col">
+                    <div>
+                      Items <img src="./assets/icons/sort.png" alt="" />
+                    </div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row">
+                    <div class="user">
+                      <img src="./assets/user-pics/user-pic-1.png" alt="" />
+                      <div class="user-name">
+                        <h3>Alex Ca.</h3>
+                        <p>By Alex</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="volume">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>8,456</p>
+                    </div>
+                  </td>
+                  <td class="percent">
+                    <p>+27.78%</p>
+                  </td>
+                  <td>
+                    <div class="volume">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>3,5</p>
+                    </div>
+                  </td>
+                  <td class="owners">
+                    <p>2.2K</p>
+                  </td>
+                  <td class="last-cell owners">
+                    <p>500</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row">
+                    <div class="user">
+                      <img src="./assets/user-pics/user-pic-2.png" alt="" />
+                      <div class="user-name">
+                        <h3>Alex Ca.</h3>
+                        <p>By Alex</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="volume">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>4,780</p>
+                    </div>
+                  </td>
+                  <td class="percent">
+                    <p>+27.78%</p>
+                  </td>
+                  <td>
+                    <div class="volume">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>7,9</p>
+                    </div>
+                  </td>
+                  <td class="owners">
+                    <p>3.4K</p>
+                  </td>
+                  <td class="last-cell owners">
+                    <p>900</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row">
+                    <div class="user">
+                      <img src="./assets/user-pics/user-pic-1.png" alt="" />
+                      <div class="user-name">
+                        <h3>Alex Ca.</h3>
+                        <p>By Alex</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="volume">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>8,456</p>
+                    </div>
+                  </td>
+                  <td class="percent">
+                    <p>+27.78%</p>
+                  </td>
+                  <td>
+                    <div class="volume">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>3,5</p>
+                    </div>
+                  </td>
+                  <td class="owners">
+                    <p>2.2K</p>
+                  </td>
+                  <td class="last-cell owners">
+                    <p>500</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row">
+                    <div class="user">
+                      <img src="./assets/user-pics/user-pic-2.png" alt="" />
+                      <div class="user-name">
+                        <h3>Alex Ca.</h3>
+                        <p>By Alex</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="volume">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>4,780</p>
+                    </div>
+                  </td>
+                  <td class="percent">
+                    <p>+27.78%</p>
+                  </td>
+                  <td>
+                    <div class="volume">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>7,9</p>
+                    </div>
+                  </td>
+                  <td class="owners">
+                    <p>3.4K</p>
+                  </td>
+                  <td class="last-cell owners">
+                    <p>900</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row">
+                    <div class="user">
+                      <img src="./assets/user-pics/user-pic-1.png" alt="" />
+                      <div class="user-name">
+                        <h3>Alex Ca.</h3>
+                        <p>By Alex</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="volume">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>8,456</p>
+                    </div>
+                  </td>
+                  <td class="percent">
+                    <p>+27.78%</p>
+                  </td>
+                  <td>
+                    <div class="volume">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>3,5</p>
+                    </div>
+                  </td>
+                  <td class="owners">
+                    <p>2.2K</p>
+                  </td>
+                  <td class="last-cell owners">
+                    <p>500</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row">
+                    <div class="user">
+                      <img src="./assets/user-pics/user-pic-2.png" alt="" />
+                      <div class="user-name">
+                        <h3>Alex Ca.</h3>
+                        <p>By Alex</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="volume">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>4,780</p>
+                    </div>
+                  </td>
+                  <td class="percent">
+                    <p>+27.78%</p>
+                  </td>
+                  <td>
+                    <div class="volume">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>7,9</p>
+                    </div>
+                  </td>
+                  <td class="owners">
+                    <p>3.4K</p>
+                  </td>
+                  <td class="last-cell owners">
+                    <p>900</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row">
+                    <div class="user">
+                      <img src="./assets/user-pics/user-pic-1.png" alt="" />
+                      <div class="user-name">
+                        <h3>Alex Ca.</h3>
+                        <p>By Alex</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="volume">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>8,456</p>
+                    </div>
+                  </td>
+                  <td class="percent">
+                    <p>+27.78%</p>
+                  </td>
+                  <td>
+                    <div class="volume">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>3,5</p>
+                    </div>
+                  </td>
+                  <td class="owners">
+                    <p>2.2K</p>
+                  </td>
+                  <td class="last-cell owners">
+                    <p>500</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row">
+                    <div class="user">
+                      <img src="./assets/user-pics/user-pic-2.png" alt="" />
+                      <div class="user-name">
+                        <h3>Alex Ca.</h3>
+                        <p>By Alex</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="volume">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>4,780</p>
+                    </div>
+                  </td>
+                  <td class="percent">
+                    <p>+27.78%</p>
+                  </td>
+                  <td>
+                    <div class="volume">
+                      <img src="./assets/icons/ethereum.png" alt="" />
+                      <p>7,9</p>
+                    </div>
+                  </td>
+                  <td class="owners">
+                    <p>3.4K</p>
+                  </td>
+                  <td class="last-cell owners">
+                    <p>900</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="loading">
+            <span class="loader"></span>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <div class="upper">
+          <div class="footer-logo">
+            <img src="./assets/icons/logo-white.png" alt="logo" />
+            <h2>DiveSea</h2>
+          </div>
+          <div class="footer-menu">
+            <a href="">Privacy Policy</a>
+            <a href="">Term & Conditions</a>
+            <a href="">About Us</a>
+            <a href="">Contact</a>
+          </div>
+        </div>
+
+        <span
+          class="unleash-line"
+          style="opacity: 0.25; background: #818181"
+        ></span>
+
+        <div class="lower">
+          <p>© 2023 EATLY All Rights Reserved.</p>
+          <div class="socials">
+            <img src="./assets/socials/instagram.png" alt="instagram" />
+            <img src="./assets/socials/linked-in.png" alt="linked in" />
+            <img src="./assets/socials/facebook.png" alt="facebook" />
+            <img src="./assets/socials/tweeter.png" alt="tweeter" />
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
