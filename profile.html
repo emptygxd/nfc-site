@@ -33,9 +33,7 @@
               type="text"
             />
             <div class="search-pic">
-              <img
-                src="./assets/icons/search.png"
-              />
+              <img src="./assets/icons/search.png" />
             </div>
           </div>
           <div class="connection-button">
@@ -44,10 +42,20 @@
             </a>
           </div>
         </div>
+
+        <div class="pages-mobile">
+          <a href="index.html">
+            <img src="./assets/icons/logo.png" alt="logo" />
+            <p>DiveSea</p>
+          </a>
+          <img src="./assets/icons/menu.png" alt="menu" />
+        </div>
+        <span class="line-mobile"></span>
       </header>
 
       <main>
         <div class="profile-wrapper">
+          <div class="profile-bg"></div>
           <div class="profile-info-wrapper">
             <div class="profile-ava">
               <img src="./assets/user-pics/profile-pic.png" alt="ava" />
@@ -66,7 +74,7 @@
 
             <div class="profile-info">
               <div>
-                <h2 style="width: 114px">86 ETH</h2>
+                <h2>86 ETH</h2>
                 <p>Total Sales</p>
               </div>
               <div>
@@ -110,7 +118,10 @@
                 />
                 Collection
               </button>
-              <button class="tab-links" onclick="openTab(event, 'profile-activity-wrapper')">
+              <button
+                class="tab-links"
+                onclick="openTab(event, 'profile-activity-wrapper')"
+              >
                 <img src="./assets/icons/activity.png" alt="activity" />
                 Activity
               </button>
@@ -276,7 +287,6 @@
 
             <div class="profile-activity-wrapper tabcontent">
               <div class="profile-activity-selectors">
-
                 <div class="selector">
                   <img src="./assets/icons/cart.png" alt="cart" />
                   <p>Sales</p>
@@ -294,7 +304,6 @@
                     alt="arrow-down"
                   />
                 </div>
-
               </div>
 
               <div class="profile-activity-card">
@@ -413,13 +422,11 @@
                 </div>
               </div>
             </div>
-            
+
             <div class="loading">
               <span class="loader"></span>
             </div>
           </div>
-
-          
         </div>
       </main>
 
@@ -452,6 +459,32 @@
           </div>
         </div>
       </footer>
+
+      <footer class="footer-mobile">
+        <div class="footer-mobile-upper">
+          <div class="footer-mobile-logo">
+            <img src="./assets/icons/logo-white.png" alt="" />
+            <h2>DiveSea</h2>
+          </div>
+          <div class="socials">
+            <img src="./assets/socials/instagram.png" alt="instagram" />
+            <img src="./assets/socials/linked-in.png" alt="linked in" />
+            <img src="./assets/socials/facebook.png" alt="facebook" />
+            <img src="./assets/socials/tweeter.png" alt="tweeter" />
+          </div>
+        </div>
+
+        <div class="footer-mobile-menu">
+          <a href="">Privacy Policy</a>
+          <a href="">Term & Conditions</a>
+          <a href="">About Us</a>
+          <a href="">Contact</a>
+        </div>
+
+        <span class="footer-mobile-line"></span>
+
+        <p>© 2023 EATLY All Rights Reserved.</p>
+      </footer> 
     </div>
     <script src="./tabs.js"></script>
   </body>
