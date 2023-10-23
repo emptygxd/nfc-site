@@ -1,0 +1,141 @@
+.discover-page-main {
+  margin-top: 108.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin-left: 96px;
+  margin-right: 96px;
+}
+
+.discover-filter-block {
+  margin-top: 45px;
+}
+
+a:nth-child(1) .weekly-card .card-pic {
+  background: url(../assets/pics/card-1.png), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a:nth-child(2) .weekly-card .card-pic {
+  background: url(../assets/pics/discover-pic.png), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a:nth-child(3) .weekly-card .card-pic {
+  background: url(../assets/pics/card-3.png), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a:nth-child(4) .weekly-card .card-pic {
+  background: url(../assets/pics/card-4.png), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a:nth-child(5) .weekly-card .card-pic {
+  background: url(../assets/pics/card-5.png), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.verified {
+  position: relative;
+}
+
+.verified::after {
+  content: "✔";
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 20px;
+  height: 20px;
+
+  position: absolute;
+  top: -4px;
+  right: -4px;
+
+  color: white;
+  font-size: 12px;
+
+  background-color: #007aff;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+  .discover-page-main {
+    margin: 90px 68px 0 68px;
+  }
+
+  .discover-page-main h1 {
+    font-size: 32px;
+    line-height: 21.5px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .discover-page-main {
+    margin: 75px 46px 0 46px;
+  }
+
+  .discover-page-main h1 {
+    font-size: 30px;
+    line-height: 125%; /* 37.5px */
+  }
+
+  .card-pic-mobile {
+    width: 178.5px;
+    height: 178.5px;
+    border-radius: 16.5px;
+  }
+
+  .card-time-mobile {
+    width: 81px;
+    height: 26.5px;
+    padding: 6.5px 10px;
+    gap: 8.5px;
+    border-radius: 6.5px;
+    border: 0.831px solid rgba(28, 29, 32, 0.08);
+    box-shadow: 0px 3.5px 10px 0px rgba(28, 29, 32, 0.08);
+    backdrop-filter: blur(1.5px);
+  }
+
+  .card-time-mobile p {
+    font-size: 9px;
+    letter-spacing: 0.08px;
+  }
+
+  .card-bottom-block-mobile .card-name h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .card-bottom-block-mobile .card-description p {
+    font-size: 10px;
+    letter-spacing: 0.08px;
+  }
+
+  .card-bottom-block-mobile .card-cost img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .card-bottom-block-mobile .card-cost p {
+    font-size: 11.5px;
+  }
+
+  .card-bottom-block-mobile .card-button button {
+    height: 36.5px;
+    padding: 6.5px 13.5px;
+    border-radius: 8.5px;
+    font-size: 10px;
+    letter-spacing: 0.08px;
+  }
+}

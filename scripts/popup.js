@@ -1,6 +1,6 @@
-const btn = document.querySelector(".product-button"),
-  popup = document.querySelector(".pop-up"),
-  content = document.querySelector(".content");
+const btn = document.querySelector(".product-button");
+const popup = document.querySelector(".pop-up");
+const content = document.querySelector(".content");
 
 document.addEventListener("click", (e) => {
   if (e.target === btn) {

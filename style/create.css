@@ -1,0 +1,622 @@
+form {
+  display: flex;
+}
+
+.create-your-nft-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 96px;
+  margin-right: 96px;
+}
+
+.create-your-nft-wrapper h1 {
+  margin-top: 100px;
+}
+
+.create-form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.create-form-left-side {
+  display: flex;
+  flex-direction: column;
+  flex: 0.4;
+  gap: 35px;
+
+  margin-top: 153px;
+}
+
+.create-form-left-side > div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 20px;
+}
+
+.row > div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 20px;
+}
+
+.united-input > div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 20px;
+}
+
+.create-form-big-input input {
+  width: 702px;
+  height: 62.5px;
+}
+
+.input-text {
+  font-size: 13.5px;
+  font-weight: 400;
+  line-height: 124.5%; /* 16.741px */
+
+  border-radius: 11.5px;
+  background: #efefef;
+
+  padding-left: 27px;
+  height: 63px;
+}
+
+.create-form-big-input::after {
+  content: "";
+  background-image: url(./assets/icons/write.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  top: 65px;
+  right: 28px;
+
+  width: 24px;
+  height: 24px;
+}
+
+.create-form-big-input textarea {
+  width: 702px;
+  height: 165px;
+
+  padding-top: 29px;
+}
+
+.create-form-left-side .row {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+
+.bottom-arrow::after {
+  content: "";
+  background-image: url(./assets/icons/arrow-bot-black.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  top: 73px;
+  right: 28px;
+  width: 10px;
+  height: 6px;
+
+  opacity: 0.5;
+}
+
+.row .united-input .create-form-mini-input:nth-child(1) input {
+  border-top-right-radius: 0;
+  border-end-end-radius: 0;
+  width: 96px;
+}
+
+.row .united-input {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+}
+
+.before-line::before {
+  content: "";
+  display: inline;
+
+  left: 0;
+  top: 56px;
+
+  position: absolute;
+
+  width: 1px;
+  height: 39px;
+
+  background: #dadada;
+}
+
+.row .create-form-mini-input:nth-child(1) input {
+  width: 146px;
+}
+
+.row .create-form-mini-input:nth-child(2) input {
+  width: 131px;
+}
+
+.create-form-left-side .toggles {
+  gap: 40px;
+
+  margin-bottom: 110px;
+}
+
+.united-input .create-form-mini-input:nth-child(2) input {
+  border-top-left-radius: 0;
+  border-end-start-radius: 0;
+
+  width: 396px;
+}
+
+.united-input .create-form-mini-input:nth-child(2) {
+  display: flex;
+  justify-content: end;
+
+  position: relative;
+}
+
+.toggles-text h3 {
+  font-size: 20px;
+  line-height: 124.5%; /* 24.9px */
+}
+
+.toggles-text p {
+  color: #9596a6;
+  font-size: 13.5px;
+  font-weight: 400;
+  line-height: 124.5%; /* 16.741px */
+
+  margin-top: 12px;
+}
+
+.toggles > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 30px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  cursor: pointer;
+  transition: 0.4s;
+
+  background-color: #e7e4e4;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+
+  content: "";
+
+  height: 22px;
+  width: 22px;
+
+  background-color: #000000;
+  border-radius: 50%;
+
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #000000;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+  background-color: #ffffff;
+}
+
+.create-form-left-side button {
+  width: 705px;
+  height: 66px;
+  border-radius: 12px;
+  background: #000;
+
+  color: #fff;
+  font-size: 16px;
+  line-height: 18.45px; /* 115.314% */
+
+  margin-bottom: 234px;
+}
+
+.create-form-right-side {
+  margin-top: 198px;
+  margin-left: 33px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.upload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 468px;
+  height: 413px;
+
+  border-radius: 30.5px;
+  background: var(--neutrals-8, #fcfcfd);
+  box-shadow: 0px 82px 82px -61.5px rgba(15, 15, 15, 0.1),
+    0px -82px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.upload p {
+  width: 178px;
+  color: var(--neutrals-4, #777e90);
+  text-align: center;
+  font-size: 15.5px;
+  font-weight: 400;
+  line-height: 25.5px; /* 166.667% */
+  margin-top: 12px;
+}
+
+.create-form-right-side button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 63px;
+  width: 327px;
+
+  border-radius: 16px;
+  background: #141416;
+
+  color: var(--White, #fff);
+  font-size: 15px;
+  line-height: 23px; /* 153.333% */
+  letter-spacing: 0.5px;
+
+  margin-top: 57px;
+}
+
+@media screen and (max-width: 1024px) {
+  .create-your-nft-wrapper {
+    margin-left: 68px;
+    margin-right: 75px;
+  }
+
+  .create-your-nft-wrapper h1 {
+    margin-top: 70px;
+
+    font-size: 32px;
+    line-height: 21.5px; /* 66.676% */
+  }
+
+  .create-form-left-side {
+    margin-top: 108px;
+    gap: 25px;
+  }
+
+  .create-form-left-side > div {
+    gap: 14px;
+  }
+
+  .create-form-left-side label {
+    color: #000;
+    font-size: 14px;
+    line-height: 124.5%; /* 17.708px */
+  }
+
+  .create-form-big-input input {
+    width: 499.5px;
+    height: 44.5px;
+    border-radius: 8px;
+  }
+
+  .create-form-big-input textarea {
+    width: 499.5px;
+    height: 117.5px;
+    border-radius: 8px;
+    padding-top: 20.5px;
+  }
+
+  .create-form-left-side .row {
+    gap: 27.5px;
+  }
+
+  .united-input > div {
+    gap: 14px;
+  }
+
+  .row > div {
+    gap: 14px;
+  }
+
+  .row .united-input .create-form-mini-input:nth-child(1) input {
+    width: 68px;
+  }
+
+  .united-input .create-form-mini-input:nth-child(2) input {
+    width: 281.5px;
+  }
+
+  .create-form-left-side button {
+    width: 501.384px;
+    height: 46.938px;
+
+    border-radius: 8.529px;
+
+    font-size: 11.5px;
+    line-height: 13px; /* 115.314% */
+    margin-bottom: 150px;
+  }
+
+  .input-text {
+    font-size: 9.5px;
+    padding-left: 19px;
+    height: 44px;
+  }
+
+  .create-form-big-input::after {
+    width: 17px;
+    height: 17px;
+
+    top: 45px;
+  }
+
+  .bottom-arrow::after {
+    width: 7px;
+    height: 4px;
+
+    top: 52px;
+    right: 17px;
+  }
+
+  .before-line::before {
+    height: 28px;
+    top: 40px;
+  }
+
+  .create-form-right-side {
+    margin-top: 140px;
+  }
+
+  .upload {
+    width: 333px;
+    height: 293.5px;
+    padding: 58.5px 6.5px;
+
+    border-radius: 22px;
+    box-shadow: 0px 58.5px 58.5px -43.5px rgba(15, 15, 15, 0.1),
+      0px -58.5px 57px 0px rgba(0, 0, 0, 0.05);
+  }
+
+  .create-form-right-side button {
+    margin-top: 40.5px;
+    height: 45px;
+    width: 232.5px;
+    gap: 7px;
+    border-radius: 11.5px;
+
+    font-size: 10.5px;
+    line-height: 16.5px;
+    letter-spacing: 0.3px;
+  }
+
+  .upload img {
+    width: 36.5px;
+    height: 36.5px;
+  }
+
+  .upload p {
+    margin-top: 9px;
+    font-size: 11px;
+    line-height: 18px; /* 166.667% */
+    width: 126.5px;
+  }
+
+  .create-form-left-side .toggles {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    gap: 28.5px;
+  }
+
+  .toggles-text h3 {
+    font-size: 14px;
+  }
+
+  .toggles-text p {
+    margin-top: 8px;
+    font-size: 9.5px;
+  }
+
+  .switch {
+    width: 39px;
+    height: 21.5px;
+  }
+
+  .slider {
+    border-radius: 10px;
+  }
+
+  .slider:before {
+    height: 15px;
+    width: 15px;
+
+    bottom: 3px;
+    left: 3px;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(17px);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  form {
+    flex-direction: column-reverse;
+  }
+
+  .create-your-nft-wrapper h1 {
+    display: none;
+  }
+
+  .create-form-right-side {
+    margin-top: 80px;
+    margin-left: 0;
+  }
+
+  .create-your-nft-wrapper {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  .upload {
+    width: 310.5px;
+    height: 375px;
+    padding: 61px 7.5px;
+    gap: 9.5px;
+    border-radius: 23px;
+    box-shadow: 0px 61px 61px -45.5px rgba(15, 15, 15, 0.1);
+  }
+
+  .upload img {
+    width: 38px;
+    height: 38px;
+  }
+
+  .upload p {
+    width: 132px;
+    font-size: 11.5px;
+    line-height: 19px; /* 166.667% */
+  }
+
+  .create-form-right-side button {
+    margin-top: 61px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 22px; /* 153.333% */
+    letter-spacing: 0.5px;
+  }
+
+  .create-form-left-side {
+    margin-top: 91px;
+    gap: 23px;
+  }
+
+  .create-form-left-side > div {
+    gap: 13px;
+  }
+
+  .create-form-big-input input {
+    width: 313px;
+    height: 39.5px;
+    border-radius: 7.5px;
+  }
+
+  .create-form-big-input textarea {
+    width: 313px;
+    height: 106.5px;
+    border-radius: 7.5px;
+  }
+
+  .create-form-left-side button {
+    width: 310.5px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 22px; /* 153.333% */
+    letter-spacing: 0.5px;
+  }
+
+  .input-text {
+    font-size: 8.5px;
+    padding-left: 17px;
+    height: 40px;
+  }
+
+  .row .create-form-mini-input:nth-child(1) input {
+    width: 94.5px;
+  }
+
+  .row .create-form-mini-input:nth-child(2) input {
+    width: 84.5px;
+  }
+
+  .create-form-left-side .row {
+    gap: 22.5px;
+  }
+
+  .row .united-input .create-form-mini-input:nth-child(1) input {
+    width: 62px;
+  }
+
+  .create-form-left-side label {
+    font-size: 13px;
+  }
+
+  .united-input > div {
+    gap: 13px;
+  }
+
+  .row > div {
+    gap: 13px;
+  }
+
+  .bottom-arrow::after {
+    width: 6.5px;
+    height: 3px;
+    top: 48px;
+    right: 15px;
+  }
+
+  .before-line::before {
+    width: 0.5px;
+    height: 25px;
+    top: 37px;
+  }
+
+  .united-input .create-form-mini-input:nth-child(2) input {
+    width: 118.5px;
+  }
+
+  .create-form-left-side .toggles {
+    margin-top: 22px;
+    margin-bottom: 53px;
+    gap: 26px;
+  }
+
+  .toggles-text p {
+    font-size: 8.5px;
+  }
+
+  .toggles-text h3 {
+    font-size: 13px;
+  }
+}
